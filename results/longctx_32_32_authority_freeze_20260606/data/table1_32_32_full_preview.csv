@@ -1,0 +1,7 @@
+﻿"label","config","scorer","cvr","gf","l1_hit_pct","hierarchy_miss_pct","latency_cycles","hbm_reads","lut","ff","wns_ns","fmax_mhz","power_w","status","timing_met"
+"Traditional cache","baseline","-","-","-","24.29","47.78","4.163","653758","16250","7649","0.465","104.877","3.198","PASS","True"
+"Pure H2O","fpga_true_h2o_pure","H2O","-","-","24.29","51.33","4.186","695338","19224","8311","0.344","103.563","3.228","PASS","True"
+"H2O + victim cache","fpga_h2o_plus_service_clean_victim_cache16_v245","H2O","Y","-","23.96","33.90","4.023","449915","21246","9322","0.220","102.249","3.248","PASS","True"
+"H2O + guarded prefetch","fpga_h2o_plus_service_strict_miss_prefetch_v206","H2O","-","-","23.98","51.13","4.143","680524","19546","8669","0.029","100.291","3.229","PASS","True"
+"CVR+GF baseline (matched)","fpga_h2o_plus_service_cvr_group_fill_v251","H2O","Y","Y","23.96","33.90","4.023","449915","21576","9567","0.131","101.327","3.254","PASS","True"
+"KiloWare-HV","fpga_kiloscore_hv_opt5_global_winner","KiloScore","Y","Y","62.11","17.55","3.914","232843","20580","9757","0.288","102.965","3.239","PASS","True"
