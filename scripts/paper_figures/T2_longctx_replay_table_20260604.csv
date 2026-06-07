@@ -1,0 +1,22 @@
+row_type,model,context,trace_instances,prompt_length,baseline_l1_hit_pct,hv_l1_hit_pct,baseline_hierarchy_miss_pct,hv_hierarchy_miss_pct,baseline_rtl_latency_cycles_per_access,hv_rtl_latency_cycles_per_access,l1_gain_pp,hierarchy_miss_reduction_pp,rtl_latency_gain_pct,hbm_read_save_pct_supporting,amat_gain_pct_supporting,negative_hbm_rows,negative_amat_rows,negative_rtl_latency_rows,source
+model_context,Qwen2.5-7B,4K,27,"4,066",12.0,21.3,33.5,29.4,4.05,3.99,9.3,4.1,1.3,11.9,8.7,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Qwen2.5-7B,8K,27,"8,117",7.2,14.9,41.6,35.4,4.09,4.05,7.7,6.2,1.1,14.7,9.4,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Qwen2.5-7B,16K,27,"16,225",6.4,15.2,41.1,35.1,4.05,4.03,8.8,6.0,0.6,14.4,9.6,0,0,1,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Qwen2.5-7B,32K,27,"32,487",10.7,20.0,34.8,31.0,4.01,4.00,9.4,3.7,0.2,10.6,8.3,1,0,1,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Qwen2.5-14B,4K,27,"4,066",11.9,33.2,36.9,30.6,4.09,4.01,21.3,6.3,1.9,16.7,16.0,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Qwen2.5-14B,8K,27,"8,117",7.3,28.8,42.9,34.3,4.10,4.04,21.6,8.5,1.5,19.6,17.1,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Qwen2.5-14B,16K,27,"16,225",7.0,29.8,41.6,33.0,4.05,4.02,22.8,8.6,0.8,20.4,17.9,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Qwen2.5-14B,32K,27,"32,467",10.3,32.3,37.1,29.5,4.02,4.00,22.0,7.6,0.4,20.2,17.6,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Mistral-7B,4K,27,"4,067",10.0,29.5,36.3,31.2,4.09,4.02,19.6,5.1,1.5,13.5,13.9,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Mistral-7B,8K,27,"8,121",3.9,23.5,43.0,37.3,4.10,4.06,19.6,5.8,0.9,12.9,13.3,1,0,1,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Mistral-7B,16K,27,"16,229",3.4,24.8,43.0,37.4,4.06,4.04,21.4,5.6,0.5,12.8,13.9,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Mistral-7B,32K,27,"32,504",9.3,30.8,34.7,30.2,4.01,4.00,21.5,4.5,0.2,12.9,14.5,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Llama-3.1-8B,4K,27,"4,062",11.6,36.4,35.8,28.0,4.08,3.98,24.7,7.8,2.5,21.8,19.4,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Llama-3.1-8B,8K,27,"8,115",7.0,31.0,42.7,32.1,4.10,4.02,24.0,10.6,1.9,24.6,20.2,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Llama-3.1-8B,16K,27,"16,228",6.6,31.7,41.9,32.1,4.05,4.02,25.1,9.8,0.9,22.9,19.9,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+model_context,Llama-3.1-8B,32K,27,"32,505",12.5,39.7,34.6,26.3,4.01,3.99,27.2,8.3,0.4,23.9,21.4,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+all_models_context,All models,4K,108,"4,066",11.4,30.1,35.6,29.8,4.08,4.00,18.7,5.8,1.8,16.0,14.5,0,0,0,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+all_models_context,All models,8K,108,"8,117",6.3,24.6,42.6,34.8,4.10,4.04,18.2,7.8,1.4,18.0,15.0,1,0,1,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+all_models_context,All models,16K,108,"16,228",5.9,25.4,41.9,34.4,4.05,4.02,19.5,7.5,0.7,17.6,15.3,0,0,1,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+all_models_context,All models,32K,108,"32,490",10.7,30.7,35.3,29.3,4.01,4.00,20.0,6.0,0.3,16.9,15.4,1,0,1,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
+headline,All replay,4K--32K,432,"12,174",8.6,27.7,38.8,32.1,4.06,4.02,19.1,6.8,1.0,17.1,15.1,2,0,3,longctx_text_per_row_saving.csv; longctx_spec_summary.csv
