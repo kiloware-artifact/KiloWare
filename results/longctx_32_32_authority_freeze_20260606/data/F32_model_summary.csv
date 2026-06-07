@@ -1,5 +1,0 @@
-model,rows,base_l1_hit_pct,kw_l1_hit_pct,base_hier_miss_pct,kw_hier_miss_pct,base_latency_cycles,kw_latency_cycles
-Qwen7B,108,23.7248,59.4582,33.4237,18.5101,4.017627,3.918165
-Qwen14B,108,24.0168,63.152,34.857,17.009,4.030208,3.91179
-Mistral7B,108,22.2496,61.1747,33.7101,19.3667,4.023513,3.928859
-Llama8B,108,25.8431,64.6699,33.6189,15.2957,4.022628,3.89862

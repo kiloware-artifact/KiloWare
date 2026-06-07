@@ -1,6 +1,0 @@
-﻿32/32_AUTHORITY_VERIFY_PASS
-rows=432
-matched_l1=23.96 kw_l1=62.11
-matched_miss=33.90 kw_miss=17.55
-matched_cycles=4.023 kw_cycles=3.914
-qor_matched_lut=21576 qor_kw_lut=20580

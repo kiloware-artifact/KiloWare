@@ -1,7 +1,0 @@
-﻿"label","config","scorer","cvr","gf","status","timing_met","wns_ns","fmax_mhz","lut","ff","bram","dsp","power_w","run_dir","source_json"
-"Traditional cache","baseline","-","-","-","PASS","True","0.465","104.877","16250","7649","0","0","3.198","",""
-"Pure H2O","fpga_true_h2o_pure","H2O","-","-","PASS","True","0.344","103.563","19224","8311","0","0","3.228","",""
-"H2O + victim cache","fpga_h2o_plus_service_clean_victim_cache16_v245","H2O","Y","-","PASS","True","0.22","102.249","21246","9322","0","0","3.248","",""
-"H2O + guarded prefetch","fpga_h2o_plus_service_strict_miss_prefetch_v206","H2O","-","-","PASS","True","0.029","100.291","19546","8669","0","0","3.229","",""
-"CVR+GF baseline (matched)","fpga_h2o_plus_service_cvr_group_fill_v251","H2O","Y","Y","PASS","True","0.131","101.327","21576","9567","0","0","3.254","",""
-"KiloWare-HV","fpga_kiloscore_hv_opt5_global_winner","KiloScore","Y","Y","PASS","True","0.288","102.965","20580","9757","0","0","3.239","",""
